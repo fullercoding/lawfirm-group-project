@@ -54,4 +54,42 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
     border: 2px solid 
 }
 
+/* CONTACT PAGE -gulfem */
 
+*{
+  box-sizing: border-box;
+}
+
+.wrapper-contact{
+  margin: 15px;
+  /* display: flex; */
+}
+
+.row-cols {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/* solve the height issue */
+.column{
+  display: flex;
+  flex-direction:column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.right-col{
+  background-color: aqua;
+  height: 100px;
+}
+
+.main-col{
+  background-color: lightpink;
+}
+
+.left-col{
+  background-color: bisque;
+}
