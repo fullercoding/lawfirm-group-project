@@ -35,23 +35,26 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
       
     
 
-#login{
-    border: 2px solid;
-}
 
 
 
 #nav{
-    border: 2px solid 
+    border: 1px solid;
+    border-bottom: 0;
+    border-left: 0;
+    border-right:0;
+    border-top:1px
 }
 
 #footer{
-    border: 2px solid
+    border: 1px solid;
+    margin-bottom: 75px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right:0;
 
 }
 
-#content{
-    border: 2px solid 
-}
+
 
 
