@@ -60,8 +60,6 @@ body{ background: url(../images/nza_background.jpg) no-repeat center center fixe
 
 .wrapper-contact{
   margin: 15px;
-    /* text-align: center; */
-  /* display: flex; */
 }
 
 .columns{
@@ -69,6 +67,7 @@ body{ background: url(../images/nza_background.jpg) no-repeat center center fixe
   flex: 1;
   flex-wrap: wrap;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.7px;
 }
 
 .columns p{
